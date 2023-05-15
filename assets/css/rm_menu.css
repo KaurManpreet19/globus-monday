@@ -1353,7 +1353,8 @@ ul.ruby-menu>li.ruby-menu-mega-shop>div>ul>li>a {
     font-weight: 700;
     font-size: 14px;
     font-stretch: expanded;
-    color: #666
+    color: #666;
+    margin:0 10px;
 }
 
 ul.ruby-menu>li.ruby-menu-mega-shop>div>ul>li:hover>a,
