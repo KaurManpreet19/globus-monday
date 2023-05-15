@@ -1503,6 +1503,10 @@
   .footer-area .footer-item .footer-link ul li {
     display: flex;
   }
+  ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a {
+    font-weight: 700;
+    font-size: 12px !important;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .counter-area {
@@ -1726,13 +1730,15 @@ ul.ruby-menu > li {
   margin-bottom: 15px;
 }
 
-span.ruby-c-category, span.ruby-c-category a {
+span.ruby-c-category,
+span.ruby-c-category a {
   font-size: 15px !important;
   margin: 9px 0;
   color: #444;
 }
 
-span.ruby-c-date, span.ruby-c-date a {
+span.ruby-c-date,
+span.ruby-c-date a {
   font-size: 15px !important;
   color: #444;
 }
