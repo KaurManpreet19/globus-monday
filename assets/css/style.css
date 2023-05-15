@@ -7384,4 +7384,8 @@ section.whyDifferent ul li {
 
 section.whyDifferent ul li:last-child {
   margin-right: auto;
+}
+
+nav.mobile-menu li {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
