@@ -7370,4 +7370,14 @@ a {
 .about-area .about-content .section-title p {
   margin-left: 0;
   margin-top: 15px;
+}
+
+section.whyDifferent ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+section.whyDifferent ul li {
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
