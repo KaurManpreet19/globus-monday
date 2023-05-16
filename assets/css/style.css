@@ -7483,6 +7483,26 @@ nav.mobile-menu li {
   background: url(../images/banners/Data\ Catalog\ Management.png);
 }
 
+.page-title-area.title-bg-one.banner-item.corporate-overview-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/coprate\ overview.png);
+}
+
+.page-title-area.title-bg-one.banner-item.why-us-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/why\ us.png);
+}
+
 .ruby-grid.ruby-grid-lined span.ruby-c-title {
   margin-bottom: 0 !important;
   margin-top: 16px;
