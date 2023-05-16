@@ -7471,4 +7471,14 @@ nav.mobile-menu li {
   height: 600px;
   z-index: 1;
   background: url(../images/banners/Data\ Entry.png);
+}
+
+.page-title-area.title-bg-one.banner-item.data-catalog-mgt {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Data\ Catalog\ Management.png);
 }/*# sourceMappingURL=style.css.map */
