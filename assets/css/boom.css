@@ -135,8 +135,9 @@
     margin: 32px 0px;
   }
   .whyCareer .hj .card img {
-    width: 40px;
-  }
+    width: 70px;
+    height: 70px;
+}
   .whyCareer .hj .card .card-body {
     padding: 5px 27px;
   }
