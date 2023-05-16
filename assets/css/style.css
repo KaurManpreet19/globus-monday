@@ -7391,4 +7391,14 @@ nav.mobile-menu li {
 
 .item--meta .item--icon img {
   width: 60px;
+}
+
+.page-title-area.title-bg-one.banner-item.payroll-banner-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/BG-Banners1.jpg);
 }/*# sourceMappingURL=style.css.map */
