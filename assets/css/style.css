@@ -7513,6 +7513,26 @@ nav.mobile-menu li {
   background: url(../images/banners/Data\ Analytics.png);
 }
 
+.page-title-area.title-bg-one.banner-item.forms-processing-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Data\ Analytics.png);
+}
+
+.page-title-area.title-bg-one.banner-item.data-processing-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Banner\ Data\ Processing.png);
+}
+
 .ruby-grid.ruby-grid-lined span.ruby-c-title {
   margin-bottom: 0 !important;
   margin-top: 16px;
