@@ -9165,7 +9165,7 @@ nav.mobile-menu li {
     z-index: 1;
     background: url(../images/banners/Banner\ Restaurant.png);
 }
-.page-title-area.title-bg-one.banner-item.ecom-banner-bgr{
+.page-title-area.title-bg-one.banner-item.ecom-banner-bg{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -9173,6 +9173,15 @@ nav.mobile-menu li {
     height: 600px;
     z-index: 1;
     background: url(../images/banners/banner\ E-commerce\ Data\ Entry.png);
+}
+.page-title-area.title-bg-one.banner-item.accounting-bg{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    background: url(../images/banners/banner\ Accounting.png);
 }
 
 .ruby-grid.ruby-grid-lined span.ruby-c-title {
