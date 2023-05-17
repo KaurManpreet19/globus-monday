@@ -912,19 +912,19 @@ span.ruby-dropdown-toggle:after {
 
 @media(min-width: 767px) {
     ul.ruby-menu>li>a:after {
-        transition: all .3s ease
+        transition: all .5s ease
     }
 
     ul.ruby-menu>li>ul>li>a:after,
     ul.ruby-menu>li>ul>li>ul>li>a:after,
     ul.ruby-menu>li>ul>li>ul>li>ul>li>a:after {
-        transition: all .3s ease
+        transition: all .5s ease
     }
 
     ul.ruby-menu>li>ul,
     ul.ruby-menu>li>div {
         transform: translateY(25px);
-        transition: all .3s ease
+        transition: all .5s ease
     }
 
     ul.ruby-menu>li:hover>ul,
@@ -947,7 +947,7 @@ span.ruby-dropdown-toggle:after {
     ul.ruby-menu>li>ul>li>ul>li>ul,
     ul.ruby-menu>li>ul>li>ul>li>ul>li>ul {
         transform: translateX(25px);
-        transition: all .3s ease
+        transition: all .5s ease
     }
 
     ul.ruby-menu>li>ul>li:hover>ul,
