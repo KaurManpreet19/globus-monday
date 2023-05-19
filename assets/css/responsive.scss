@@ -2399,6 +2399,15 @@
   .testimonials-area .testimonials-item {
     height: 395px;
   }
+
+  ul.footer-links {
+    float: unset;
+  }
+
+  .footer-area .copyright-area p {
+    margin-bottom: 15px;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 640px) {

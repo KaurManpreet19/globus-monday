@@ -5068,6 +5068,8 @@ p {
   .details-item {
     img {
       width: 100%;
+      height: 420px;
+      object-fit: cover;
     }
 
     .details-img {
@@ -5187,6 +5189,8 @@ p {
 
       img {
         margin-bottom: 20px;
+        height: 300px;
+        object-position: top;
       }
 
       p {
@@ -5255,6 +5259,8 @@ p {
 
               i {
                 line-height: 30px;
+                color: #fff;
+
               }
 
               &:hover {
@@ -9020,177 +9026,197 @@ section.whyDifferent ul {
 section.whyDifferent ul li {
   height: 100%;
 }
+
 section.whyDifferent ul li:last-child {
   margin-right: auto;
 }
+
 nav.mobile-menu li {
   display: block;
 }
+
 .item--meta .item--icon img {
   width: 60px;
 }
 
-.page-title-area.title-bg-one.banner-item.payroll-banner-bg{
+.page-title-area.title-bg-one.banner-item.payroll-banner-bg {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Payroll.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Payroll.png);
 }
-.page-title-area.title-bg-one.banner-item.account-payable{
+
+.page-title-area.title-bg-one.banner-item.account-payable {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Account\ Payable\ Services.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Account\ Payable\ Services.png);
 }
-.page-title-area.title-bg-one.banner-item.account-recievale{
+
+.page-title-area.title-bg-one.banner-item.account-recievale {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Account\ Receivable\ Services.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Account\ Receivable\ Services.png);
 }
-.page-title-area.title-bg-one.banner-item.Reconciliation{
+
+.page-title-area.title-bg-one.banner-item.Reconciliation {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Reconciliation.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Reconciliation.png);
 }
-.page-title-area.title-bg-one.banner-item.Tax-Preparation{
+
+.page-title-area.title-bg-one.banner-item.Tax-Preparation {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Tax\ Preparation.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Tax\ Preparation.png);
 }
-.page-title-area.title-bg-one.banner-item.Financial-Reporting{
+
+.page-title-area.title-bg-one.banner-item.Financial-Reporting {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Financial\ Reporting.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Financial\ Reporting.png);
 }
-.page-title-area.title-bg-one.banner-item.bookeeping-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Bookkeeping.png);
+
+.page-title-area.title-bg-one.banner-item.bookeeping-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Bookkeeping.png);
 }
-.page-title-area.title-bg-one.banner-item.data-entry-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Data\ Entry.png);
+
+.page-title-area.title-bg-one.banner-item.data-entry-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Data\ Entry.png);
 }
-.page-title-area.title-bg-one.banner-item.data-catalog-mgt{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Data\ Catalog\ Management.png);
+
+.page-title-area.title-bg-one.banner-item.data-catalog-mgt {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Data\ Catalog\ Management.png);
 }
-.page-title-area.title-bg-one.banner-item.corporate-overview-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/coprate\ overview.png);
+
+.page-title-area.title-bg-one.banner-item.corporate-overview-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/coprate\ overview.png);
 }
-.page-title-area.title-bg-one.banner-item.why-us-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/why\ us.png);
+
+.page-title-area.title-bg-one.banner-item.why-us-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/why\ us.png);
 }
-.page-title-area.title-bg-one.banner-item.data-analytics-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Data\ Analytics.png);
+
+.page-title-area.title-bg-one.banner-item.data-analytics-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Data\ Analytics.png);
 }
-.page-title-area.title-bg-one.banner-item.forms-processing-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/banner\ Form\ Processing.png);
+
+.page-title-area.title-bg-one.banner-item.forms-processing-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/banner\ Form\ Processing.png);
 }
-.page-title-area.title-bg-one.banner-item.data-processing-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Banner\ Data\ Processing.png);
+
+.page-title-area.title-bg-one.banner-item.data-processing-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Banner\ Data\ Processing.png);
 }
-.page-title-area.title-bg-one.banner-item.restaurant-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/Banner\ Restaurant.png);
+
+.page-title-area.title-bg-one.banner-item.restaurant-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/Banner\ Restaurant.png);
 }
-.page-title-area.title-bg-one.banner-item.ecom-banner-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/banner\ E-commerce\ Data\ Entry.png);
+
+.page-title-area.title-bg-one.banner-item.ecom-banner-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/banner\ E-commerce\ Data\ Entry.png);
 }
-.page-title-area.title-bg-one.banner-item.accounting-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/banner\ Accounting.png);
+
+.page-title-area.title-bg-one.banner-item.accounting-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/banner\ Accounting.png);
 }
-.page-title-area.title-bg-one.banner-item.real-estate-bg{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    z-index: 1;
-    background: url(../images/banners/banner\ Real\ Estate.png);
+
+.page-title-area.title-bg-one.banner-item.real-estate-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: 1;
+  background: url(../images/banners/banner\ Real\ Estate.png);
 }
 
 .ruby-grid.ruby-grid-lined span.ruby-c-title {
