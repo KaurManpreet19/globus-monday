@@ -7348,6 +7348,7 @@ a {
   margin-left: 25px;
   padding: 3px 0;
   font-weight: 300;
+  display: block;
 }
 
 .inner-services-keypoints ul li ul li::before {
