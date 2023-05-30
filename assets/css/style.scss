@@ -6070,12 +6070,12 @@ p {
 /*----- Error CSS -----*/
 .error-area {
   height: 100vh;
-  background-image: url("../img/error-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   background-attachment: fixed;
+  background: #3e3e3e;
 
   &:before {
     position: absolute;
