@@ -143,6 +143,7 @@ jQuery(function ($) {
         dots: true,
         arrows: false,
         autoplay: true,
+        smartSpeed: 1000,
         autoplayHoverPause: false,
         navText: [
             "<i class='bx bx-chevron-left'></i>",
