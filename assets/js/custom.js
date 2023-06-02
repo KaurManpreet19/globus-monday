@@ -151,23 +151,23 @@ jQuery(function ($) {
         ],
         responsive: {
             0: {
-                items: 1,
-                nav: true
-            },
-            992: {
-                items: 1,
-                nav: false
-            },
-            1200: {
-                items: 3,
-                nav: true,
-                loop: true
-            },
-            1800: {
-                items: 3,
-                nav: true,
-                loop: true
-            }
+				items: 1,
+			},
+			414: {
+				items: 1,
+			},
+			576: {
+				items: 1,
+			},
+			768: {
+				items: 3,
+			},
+			992: {
+				items: 3,
+			},
+			1200: {
+				items: 3,
+			},
         }
     });
 
