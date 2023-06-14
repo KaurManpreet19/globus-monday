@@ -7694,4 +7694,16 @@ nav.mobile-menu li {
 .ruby-grid.ruby-grid-lined span.ruby-c-title {
   margin-bottom: 0 !important;
   margin-top: 16px;
+}
+
+section.blog-area.pt-100.pb-100 .blog-item ul li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 0;
+}
+
+section.blog-area.pt-100.pb-100 .blog-item ul {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

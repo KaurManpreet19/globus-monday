@@ -1652,6 +1652,9 @@
     height: 312px;
     padding-top: 60px;
   }
+  section.blog-area.pt-100.pb-100 .blog-side-item ul {
+    flex-wrap: unset;
+  }
   .testimonials-area .testimonials-item {
     height: -moz-fit-content;
     height: fit-content;

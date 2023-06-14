@@ -136,14 +136,16 @@ jQuery(function ($) {
 
     // Testimonials Slider JS
     $('.testimonials-slider').owlCarousel({
-        items: 3,
-        loop:true,
-        margin: 10,
-        nav: true,
+        infinite: true,
+        autoplay: true,
+        merge:true,
+        loop: true,
+        margin:10,
+        rewind: false,
+        center: true,
         dots: true,
         arrows: false,
-        autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 250,
         autoplayHoverPause: false,
         navText: [
             "<i class='bx bx-chevron-left'></i>",
@@ -152,21 +154,27 @@ jQuery(function ($) {
         responsive: {
             0: {
 				items: 1,
+                loop:true
 			},
 			414: {
 				items: 1,
+                loop:true
 			},
 			576: {
 				items: 1,
+                loop:true
 			},
 			768: {
 				items: 3,
+                loop:true
 			},
 			992: {
 				items: 3,
+                loop:true
 			},
 			1200: {
 				items: 3,
+                loop:true
 			},
         }
     });
