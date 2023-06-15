@@ -1299,6 +1299,20 @@
   div.ruby-menu-demo-header ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a {
     margin: 0 0;
   }
+  .about-area .about-img img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.about-area .counter-area {
+    padding: 0;
+  }
+  .work-area .card.boomAddressCard {
+    width: 100%;
+  }
+  .logo-area.shadow {
+    padding-bottom: 22px;
+  }
 }
 @media only screen and (min-width: 1800px) {
   .banner-area .overlay-banner:before {
