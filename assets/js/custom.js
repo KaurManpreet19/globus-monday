@@ -61,7 +61,7 @@ jQuery(function ($) {
         dots: true,
         smartSpeed: 1000,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 3000,
         autoplayHoverPause: true,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
