@@ -1036,6 +1036,7 @@ a:hover {
 }
 .services-item h3 a {
   color: #3e3e3e;
+  font-weight: 900;
 }
 .services-item h3 a:hover {
   letter-spacing: 1px;
