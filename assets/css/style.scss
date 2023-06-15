@@ -2031,6 +2031,7 @@ p {
   color: $dark-red;
   border-bottom: 1px solid $dark-red;
   font-weight: 600;
+  padding-bottom: 18px;
 
   &:hover {
     color: $main-color;
@@ -9380,4 +9381,7 @@ section.blog-area.pt-100.pb-100 .blog-item ul{
   display: flex;
   align-items: center;
  
+}
+.rules-area.security-policy-page .rules-item ul li{
+  display:block;
 }

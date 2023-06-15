@@ -1689,6 +1689,7 @@ p {
   color: #9a1a18;
   border-bottom: 1px solid #9a1a18;
   font-weight: 600;
+  padding-bottom: 18px;
 }
 .blog-btn:hover {
   color: #3e3e3e;
@@ -7758,4 +7759,8 @@ section.blog-area.pt-100.pb-100 .blog-item ul li {
 section.blog-area.pt-100.pb-100 .blog-item ul {
   display: flex;
   align-items: center;
+}
+
+.rules-area.security-policy-page .rules-item ul li {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
